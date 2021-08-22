@@ -1,0 +1,80 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: ;
+
+}
+
+
+/* navbar start */
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+/* navbar end */
+
+/* logo image */
+img{
+    size: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* logo heading Bihar Foods */
+#heading{
+    color: black;
+    text-decoration: solid;
+    font-family: "Prata",serif;
+    font-size: 32px;
+    font-weight: 900;
+    vertical-align: middle middle;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+
+/* div of logo */
+.header{
+    border: 2px solid rgb(90, 180, 231);
+    border-radius: 32px;
+    background-color: aliceblue;
+}
+
+.tilkut{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
